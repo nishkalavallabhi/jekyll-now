@@ -8,10 +8,12 @@ I have been reading about automatic question generation on and off for about an 
 This post is my quick summary of what I understood an article I read, by a team from Microsoft Research, China.
 
 Question Answering and Question Generation as Dual Tasks
+
 Duyu Tang, Nan Duan, Tao Qin and Ming Zhou
+
 It can be read on [ArXiv](https://arxiv.org/pdf/1706.02027.pdf)
 
-Summary about the paper: Question generation and question answering are generally treated as two separate tasks generally speaking. This paper proposes a frame work to treat them both as a "dual" task considering the fact that they are both intrinsically related. For learning these tasks, they used bidirectional GRU (Gated Recurrent Unit) based RNN (Recurrent Neural Network) architecture. They then evaluate their method using two standard datasets used in Question Answering research - MS MARCO ([Microsoft Machine Reading and Comprehension](http://www.msmarco.org/about.aspx)) and SQuAD ([The Stanford Question Answering Dataset](https://rajpurkar.github.io/SQuAD-explorer/)) and show that and conclude that they improve the state of the art for both QA and QG tasks.
+Summary about the paper: Question generation and question answering are treated as two separate tasks generally speaking. This paper proposes a frame work to treat them both as a "dual" task considering the fact that they are both intrinsically related. For learning these tasks, they used bidirectional GRU (Gated Recurrent Unit) based RNN (Recurrent Neural Network) architecture. They then evaluate their method using two standard datasets used in Question Answering research - MS MARCO ([Microsoft Machine Reading and Comprehension](http://www.msmarco.org/about.aspx)) and SQuAD ([The Stanford Question Answering Dataset](https://rajpurkar.github.io/SQuAD-explorer/)) and conclude that they improve the state of the art for both QA and QG tasks.
 
 My summary: In the beginning, I thought the paper was well written. The algorithm part was reasonably clear, and I was eager to look at the experiment section, although I was also skeptical considering my earlier disappointments about these claims of "improving state of the art" which usually boils down to something like 0.05% improvement in precision or some other measure on some standard dataset. I was not wrong.
 
@@ -26,9 +28,9 @@ Next to QG evaluation: I wondered what is the point of evaluating a QG system wi
 
 Overall, I was not convinced that there is a lot of improvement over the state of the art because of their architectural choices. My perception may change as I continue to read more. One good thing about reading this though is: I knew most of the pre-2016, non-DL related work mentioned over there, but I did not know many datasets referred there.
 
-So, my homework: I only knew about the SQuAD dataset before, I learnt about several more now. 
+So, my homework:
 > "We are aware of other question answering datasets like WebQuestions (Berant et al., 2013), WikiQA (Yang et al., 2015) and  SimpleQuestions (Bordes et al., 2015)."
 
-The next step is to start going through these first!
+-next step is to start going through these first!
 
 Phew, tough job. It will take a while to get used to Jekyll markdown and posting with it!
