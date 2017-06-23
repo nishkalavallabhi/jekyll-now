@@ -1,8 +1,7 @@
 ---
 layout: post
-title: Reading: Question Answering and Question Generation as Dual Tasks
+title: Second Post
 ---
-
 I have been reading about automatic question generation on and off for about an year now. There has been an increase in stuff that is coming up since last year, thanks to work on machine comprehension. My idea is to read regularly and write my summaries here from now on.
 
 This post is my quick summary of what I understood an article I read, by a team from Microsoft Research, China.
