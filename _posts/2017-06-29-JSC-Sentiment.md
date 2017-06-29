@@ -28,4 +28,14 @@ constituted of adjectives, negations, adverbs or id-
 ioms (Liu, 2012; Mohammad et al., 2013a), which
 are splitted by syntactic chunkers. "
 
-So, that is what they do. Instead of considering all n-grams as features, they learn to segment the text into useful n-gram chunks such that they can do specific feature engineering even within that n-gram space. I think this is a useful idea. Over the past few days, I have been thinking about a related issue - I want to reduce the dimensionality of an n-gram style feature extraction, but at the same time, capture stylistic variations which embedding based representations do not seem to capture (in my experience). I was considering a range of word/POS combination n-grams, skip grams etc, and was wondering if one should just extract phrases instead. This segmentation based feature engineering seems to be a nice idea to explore.  
+So, that is what they do. Instead of considering all n-grams as features, they learn to segment the text into useful n-gram chunks such that they can do specific feature engineering even within that n-gram space. I think this is a useful idea. Over the past few days, I have been thinking about a related issue - I want to reduce the dimensionality of an n-gram style feature extraction, but at the same time, capture stylistic variations which embedding based representations do not seem to capture (in my experience). I was considering a range of word/POS combination n-grams, skip grams etc, and was wondering if one should just extract phrases instead. This segmentation based feature engineering seems to be a nice idea to explore. 
+
+There seems to be another article by the same set of authors on the same topic. I did not read it though:
+
+A Joint Segmentation and Classification Framework for Sentence Level Sentiment Classification 
+
+Duyu Tang, Bing Qin, Furu Wei, Li Dong, Ting Liu, Ming Zhou
+
+IEEE/ACM Transactions on Audio, Speech, and Language Processing. Issue 23 (11). 
+
+http://ieeexplore.ieee.org/document/7138591/?reload=true
