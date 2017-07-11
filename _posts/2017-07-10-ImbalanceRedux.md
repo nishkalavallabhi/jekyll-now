@@ -13,7 +13,7 @@ In IEEE 11th International Conference on Data Mining (pp. 754-763). IEEE.
 
 [Read online here](https://pdfs.semanticscholar.org/a8ef/5a810099178b70d1490a4e6fc4426b642cde.pdf)
 
-In continuation with my recent interest and practical and theoretical understanding of ways to handle class imbalance problem, I ended up reading this paper today. I found this via a twitter discussion on Yoav Goldberg's feed.
+In accordance with my recent interest (and need!) for a practical and theoretical understanding of ways to handle class imbalance problem, I ended up reading this paper today. I found this via a twitter discussion on Yoav Goldberg's feed.
 
 Paper summary: This paper provides a theoretical understanding of class imbalance, and corroborates the theory by experiments with simulated and real datasets. 
 
@@ -70,7 +70,7 @@ Overall,  I find it very surprising that there is so little analysis on such a c
 
 Btw, just yesterday, I had reasonable success with doing weight balanced classification in a unbalanced 4-class dataset where majority class had over 700 examples, minority class had less than 50 examples, and it is a triage problem where the minority class is the most important one to get right! I did not understand why? though.
 
-In my search after reading this, I came across [Tom Fawcett's tutorial on learning from imbalanced classes]{https://svds.com/learning-imbalanced-classes/}. This is a great piece!! Definitely worth a revisit, and a re-read. I will blog in detail soon.
+In my search after reading this, I came across [Tom Fawcett's tutorial on learning from imbalanced classes](https://svds.com/learning-imbalanced-classes/. This is a great piece!! Definitely worth a revisit, and a re-read. I will blog in detail soon.
 
 
 
