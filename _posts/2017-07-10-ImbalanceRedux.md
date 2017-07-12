@@ -66,7 +66,7 @@ The results are very useful, but kind of contrary to what the previous paper I w
 For now, in terms of practical advice, the best advice is to try both sampling and cost-sensitve learning and pick the one that works best
 for the dataset (very obvious, I know!) 
 
-Overall,  I find it very surprising that there is so little analysis on such a common problem (class imbalance). Also, I am disappointed to see some qualitative analysis in both these class imbalance papers I read fully in the past few days. There is an experiments section, there are some "real world" (which is UCI repo for most cases) dataset being used, but that is hardly the representation of diverse classification problems in real world. Perhaps, a better way is to pick more of real life datasets than synthetic data or standard UCI benchmark datasets. 
+Overall,  I find it very surprising that there is so little analysis on such a common problem (class imbalance). Also, I am disappointed to see the lack of some qualitative analysis in both these class imbalance papers I read fully in the past few days. There is an experiments section, there are some "real world" (which is UCI repo for most cases) dataset being used, but that is hardly the representation of diverse classification problems in real world. Perhaps, a better way is to pick more of real life datasets than synthetic data or standard UCI benchmark datasets. 
 
 Btw, just yesterday, I had reasonable success with doing weight balanced classification in a unbalanced 4-class dataset where majority class had over 700 examples, minority class had less than 50 examples, and it is a triage problem where the minority class is the most important one to get right! I did not understand why? though.
 
