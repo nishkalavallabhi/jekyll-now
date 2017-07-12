@@ -11,8 +11,7 @@ Authors: Jose Camacho-Collados and Mohammad Taher Pilehvar
 
 [Read online here](https://arxiv.org/pdf/1707.01780.pdf)
 
-Word embeddings, and neural networks are being commonly used in various text processing tasks in the past 3-4 years (Read [Sebastian Ruder's article series]
-(http://sebastianruder.com/word-embeddings-1/) to know more on embeddings). There is some discussion on how to do hyper-parameter tuning for embeddings, 
+Word embeddings, and neural networks are being commonly used in various text processing tasks in the past 3-4 years (Read [Sebastian Ruder's article series](http://sebastianruder.com/word-embeddings-1/) to know more on embeddings). There is some discussion on how to do hyper-parameter tuning for embeddings, 
 how to combine word level embedding representations to get document embeddings etc in literature. However, there is little analysis about
 how pre-processing decisions can affect end results (e.g., in text classification) when using embedding representations. This article works 
 on performing such an analysis.
