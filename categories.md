@@ -1,7 +1,7 @@
- ---
- layout: page
- title: Post by Category
- ---
+---
+layout: page
+title: Post by Category
+---
 <div>
     {% assign categories = site.categories | sort %}
     {% for category in categories %}
