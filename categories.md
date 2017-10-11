@@ -15,7 +15,7 @@ title: Post by Category
     
 <div id="index">
 {% for category in categories %}
-    <a name="{{ category[0] }}"></a><h2 id=category[0]>{{ category[0] | replace:'-', ' ' }} ({{ category | last | size }}) </h2>
+    <a name="{{ category[0] }}"></a><h2 id="#{{ category | first | slugify }}">{{ category[0] | replace:'-', ' ' }} ({{ category | last | size }}) </h2>
     {% assign sorted_posts = site.posts | sort: 'title' %}
     {% for post in sorted_posts %}
     {%if post.categories contains category[0]%}
