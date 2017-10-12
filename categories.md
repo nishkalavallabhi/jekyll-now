@@ -9,7 +9,7 @@ title: Post by Category
         <a href="#{{ category | first | slugify }}">
                 {{ category[0] | replace:'-', ' ' }} ({{ category | last | size }})
         </a>
-       </br>
+       <br>
     </span>
     {% endfor %}
  </div>
