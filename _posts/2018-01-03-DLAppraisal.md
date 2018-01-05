@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Reading Notes - Deep Learning: A Critical Appraisal 
+title: Reading Notes - Deep Learning- A Critical Appraisal 
 categories: Readings
 tags: [DeepLearning]
 ---
