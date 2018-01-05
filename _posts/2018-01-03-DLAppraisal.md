@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Reading Notes - Deep Learning- A Critical Appraisal 
-categories: Readings
+title: Reading Notes - A Critical Appraisal of Deep Learning
+categories: Teaching
 tags: [DeepLearning]
 ---
 
