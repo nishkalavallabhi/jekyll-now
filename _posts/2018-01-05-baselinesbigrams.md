@@ -11,10 +11,13 @@ Today, I came across a tweet by François Chollet:
 
 I often wondered about the same question, and also tried to submit writeups with such simpler methods that work - but usually the reaction was "this is too simple". In conferences I attended, when someone from the audience raised a similar question, some speakers felt offended. One or two such people I know even privately commented - "why will I use Naive Bayes when state of the art is using Deep Learning?". As I followed this twitter thread, I came across the following reference: 
 
-> Baselines and Bigrams: Simple, Good Sentiment and Topic Classification
-> Sida Wang and Christopher D. Manning
-> ACL 2012 short papers
-> https://www.aclweb.org/anthology/P12-2018
+[Baselines and Bigrams: Simple, Good Sentiment and Topic Classification](https://www.aclweb.org/anthology/P12-2018)
+
+authors: Sida Wang and Christopher D. Manning
+
+ACL 2012 short papers
+
+
 
 Here is a quick summary of this paper:
 - The primary goal of this paper is to study model selection issues between different variants of Naive Bayes (NB) and Support Vector Machines (SVM) for sentiment and topic classification problems in NLP. They take a look at datasets with short snippets as well as longer texts, and consider word bigrams as the means of deriving feature vectors
