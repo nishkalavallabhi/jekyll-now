@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Reading Notes - Class Imbalance, Redux
-categories: Readings, ML 
+categories: Readings
+tags: [MachineLearning]
 ---
 This post is a summary of the following paper
 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Reading Notes - A Joint Model for Question Answering and Question Generation
-categories: Readings, QG/QA/RC
+categories: Readings
+tags: [QG/QA/RC]
 ---
 
 This post is my quick summary of what I understood an article I read, by a team from Microsoft Maluuba.

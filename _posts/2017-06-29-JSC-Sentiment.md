@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Reading Notes - A Joint Segmentation and Classification Framework for Sentiment Analysis
-categories: Readings, JointLearning
+categories: Readings
+tags: [JointLearning]
 ---
 
 This is a reading summary of the following paper:

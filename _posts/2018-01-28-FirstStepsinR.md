@@ -2,7 +2,7 @@
 layout: post
 title: Teaching Notes- Text Mining in R, for non-programmers
 categories: Teaching
-tags: [R, 410X]
+tags: [R,410X]
 ---
 
 I teach a course "Language as Data" for introducing text processing and analysis methods to liberal arts majors. The course is a new experimental course first taught in Spring 2017, and now in its second round, in Spring 2018. I use R as the programming language, and this series of posts are my notes and observations about teaching in R for non-programmers.

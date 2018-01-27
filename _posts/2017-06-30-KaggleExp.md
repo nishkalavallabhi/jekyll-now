@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Notes on Kaggle competitions
-categories: DataScience
+categories: WorkingWithData
 ---
 I participated in my first Kaggle competition in this month ([Sberbank Russian Housing Market](https://www.kaggle.com/c/sberbank-russian-housing-market)) along with [@embedsri](https://github.com/embedsri), and this post is a reflection on that.
 

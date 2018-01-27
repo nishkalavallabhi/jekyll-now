@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Reading Notes - Cost-Sensitive Learning vs. Sampling
-categories: Readings, ML
+categories: Readings
+tags: [MachineLearning]
 ---
 
 This is a quick summary of this short paper:

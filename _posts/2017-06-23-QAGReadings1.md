@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Reading Notes - Question Answering and Question Generation as Dual Tasks
-categories: Readings, QG/QA/RC
+categories: Readings
+tags: [QG/QA/RC]
 ---
 I have been reading about automatic question generation on and off for about an year now. There has been an increase in stuff that is coming up since last year, thanks to work on machine comprehension. My idea is to read regularly and write my summaries here from now on.
 

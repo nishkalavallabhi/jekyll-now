@@ -2,7 +2,7 @@
 layout: post
 title: Telugu Treebank in Universal Dependencies
 categories: Research
-tags: [NLP]
+tags: [NLP, Treebanking]
 ---
 Several months back, in July 2017, I wrote about [Universal Dependencies](http://universaldependencies.org) and wondered about not seeing anything for Telugu. Thanks to [@phylostar](http://phylostar.github.io), I ended up in successfully collaborating on a [UD-Telugu](http://universaldependencies.org/treebanks/te/index.html) project during July-October 2017 and we successfully released the first freely available dependency treebank for Telugu in November 2017. 
 
