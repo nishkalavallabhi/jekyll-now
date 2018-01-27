@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Teaching Notes: Text Mining in R, for non-programmers
+title: Teaching Notes- Text Mining in R, for non-programmers
 categories: Teaching
 tags: [R, 410X]
 ---
