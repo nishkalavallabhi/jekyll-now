@@ -30,7 +30,8 @@ Syllabus for the course is [online](http://sowmya.public.iastate.edu/Syllabi/410
 - However, it seems like there is hardly a beginner level text mining textbook in R. I know of two books that target textmining and R.
     * Text analysis with R for students of literature - Matthew Jockers (which I use as the textbook)
     * [Text Mining with R - A Tidy Approach](https://www.tidytextmining.com) by Julia Silge and David Robinson
-  The first one is a good book, but seems too focused on literature, and does not talk about 2 major topics from what I want to discuss. The book primarily reads like a series of specifically focused tutorials directed towards some XML markup used in literature world. So, even though this is the only such beginning R book focusing on text mining, it is not ideal. The second one is not for beginners. It is for seasoned R programmers who are new to textual data
+
+The first one is a good book, but seems too focused on literature, and does not talk about 2 major topics from what I want to discuss. The book primarily reads like a series of specifically focused tutorials directed towards some XML markup used in literature world. So, even though this is the only such beginning R book focusing on text mining, it is not ideal. The second one is not for beginners. It is for seasoned R programmers who are new to textual data
 - While there is indeed a lot of online help, it is not in a way that is understandable by people who are both new to R and programming.
 
 While I noticed these issues in the past, they seem more important now, as this year's students exclusively are undergraduates, and none come from the departments where they can potentially be exposed to technical topics (linguistics, mass communication, sociology etc). Last year, students came from school of business, and computer science (mainly) and almost 3/4ths of the class know some programming in some other language or statistical analysis in R. 
