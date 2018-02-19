@@ -14,6 +14,7 @@ Roughly, the topics discussed in the course are:
 - topic modeling
 - text clustering
 - text visualization
+
 Syllabus for the course is [online](http://sowmya.public.iastate.edu/Syllabi/410-Spring18-Syllabus.pdf) and I am trying to also upload some of the [tutorials I prepare for the class](https://github.com/nishkalavallabhi/RTextNotes/). 
 
 **Purpose of the course**: When I wrote the course proposal last year, our idea was to introduce text analysis methods to students who are not coming from a technology/CS background, without expecting them to have strong programming foundation as a requirement. There are reasons for this. Many traditionally social science disciplines rely on a lot of technology tools to process data, and several of them work with textual data. For example, let us take news articles - students of journalism, sociology, political science (and several others) - all are interested in analysing news content for a variety of reasons. Social scientists interested in studying how language changes, what people are talking about (on twitter, let us say) increasingly rely on software for these analyses. So, the course was proposed in that background, with an aim to train social science and liberal art majors and prepare them to be able to perform some amount of text analysis and derive knowledge about patterns in collections of text data. 
