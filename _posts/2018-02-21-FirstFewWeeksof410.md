@@ -7,7 +7,7 @@ tags: [R,410X]
 
 This post is a continuation from my previous post on teaching a course "Language as Data" for introducing text processing and analysis methods to liberal arts majors. The posts in this series can be accessed [here](https://nishkalavallabhi.github.io/Tags/#410x).
 
-We completed 6 weeks of classes and are in our second week now. I completed the first two topics:
+We completed 6 weeks of classes and are in our seventh week now. I completed the first two topics:
 
 - topic 1: different kinds of basic corpus analyses - ranging from getting word-frequency tables to searching for words in context)
 - topic 2: working with different kinds of textual data (e.g., .txt, .docx, .pdf, .html, .xml, twitter, nytimes/guardian libraries etc)
