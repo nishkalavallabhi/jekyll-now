@@ -10,7 +10,7 @@ This post is a short summary of the following research paper
 > Title: Evaluating the Stability of Embedding-based Word Similarities  
 > Authors: Maria Antoniak, David Mimno  
 > Year: 2018  
-> Journal: Transactions of the Association for Computational Linguistics (TACL), Vol. 6
+> Journal: Transactions of the Association for Computational Linguistics (TACL), Vol. 6  
 > [URL](https://www.transacl.org/ojs/index.php/tacl/article/view/1202)
 
 Word embeddings have become very popular as one of the initial steps for various NLP tasks (parsing, language modeling, translation, classification etc) in the past 5 years. On the other hand, they are also used as a way of studying the language, how it is being used in some sample (say twitter), how language changes over time ([here](http://viveksck.github.io/langchangetrack/), [here](https://aclweb.org/anthology/P/P16/P16-1141.pdf), and [here](http://www.aclweb.org/anthology/W17-2624), for example)etc. While most of this comes from computer science researchers who work in NLP (even though the authors of this paper call it digital humanities), there are some researchers coming from a humanities background, who use embeddings as a tool to answer questions originating from their discipline (e.g., [this](https://dh2017.adho.org/abstracts/582/582.pdf) and the [associated website](http://ryanheuser.org/word-vectors/)). 
@@ -30,6 +30,6 @@ affected the quality of embeddings.
 So, here is the final recommendation:
 > "If the intention of a study is to learn about a specific corpus, we recommend that practitioners test the statistical confidence of similarities based on word embeddings by training on multiple bootstrap samples."
 
-Overall, I found it to be well-written, and thoroughly analysed paper. I haven't been reading much in terms of research articles these days, partly because of busy work days and partly because of boredom of seeing some neural network tweak followed by some potentially statistically insignificant improvement, without any insights about neither the problem at question nor the network architecture. This paper was a breathe of fresh air, and I feel like reading again!
+Overall, I found it to be a well-written, and thoroughly analysed paper. I haven't been reading much in terms of research articles these days, partly because of busy work days and partly because of boredom of seeing some neural network tweak followed by some potentially statistically insignificant improvement, without any insights about either the problem at question or the network architecture. This paper was a breathe of fresh air, and I feel like reading again!
 
 
