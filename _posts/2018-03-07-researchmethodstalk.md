@@ -16,7 +16,7 @@ Coming from this background, I had a tough time figuring out how to talk about r
 
 Talk + Q&A session took about an hour. With this experience, I have some ideas on improving this version. I am just uploading this current version nevertheless for the following reasons:
 - If some other NLP-er without 25 years of experience behind them gets themselves into scenarios that require them to address such diverse audience, they may get some ideas from here.
-- This will be a reminder to my future self about how the first version was!s
+- This will be a reminder to my future self about how the first version was!
 
 
 
