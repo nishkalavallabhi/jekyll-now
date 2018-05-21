@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reading on how neural language models use context
-categories: Talks
+categories: Readings
 ---
 
 This post is my comments/notes about the following paper:
