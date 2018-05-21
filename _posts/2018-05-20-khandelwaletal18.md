@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Reading on how neural language models use context
+title: Reading Notes- how neural language models use context
 categories: Readings
 ---
 
