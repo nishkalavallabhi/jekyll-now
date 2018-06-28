@@ -50,7 +50,7 @@ what can be done to support rule creation in AI systems.
 
 Another article I liked, and which resonated with me is [Dahlmeier, 2017](http://www.aclweb.org/anthology/P17-2015)'s "On the Challenges of Translating NLP Research into Commercial
 Products". This highlights the differences between academic and industry research interms of aspects such as - over emphasis on test scores with
-benchmark datasets, lack of domain specific data in real world applications ([Prodigy])(https://prodi.gy) is very useful for this, btw), academic vs industry timelines in terms of research/Proof of concept etc and finally
+benchmark datasets, lack of domain specific data in real world applications ([Prodigy](https://prodi.gy) is very useful for this, btw), academic vs industry timelines in terms of research/Proof of concept etc and finally
 calls for a industry track in NLP conferences. This happened in NAACL 2018 this year - search for "industry track" in [NAACL program](http://naacl2018.org/program.html)
 
 Dahlmeier's article, and a recent medium.com post I read on ["Minimum Viable (Data) Product"](https://medium.com/idealo-tech-blog/what-is-minimum-viable-data-product-49269e338d85),
