@@ -3,6 +3,7 @@ layout: post
 title: Some thoughts on Tokenization approaches in NLP
 categories: WorkingWithData
 tags: NLP
+
 ---
 
 I was planning on writing more on Key phrase extraction and document tagging in NLP, but got occupied with work. In the meanwhile, I had a few discussions with people on one of the basic pre-processing tasks in NLP - tokenization (i.e., the task of breaking of a piece of text into individual tokens where a token can refer to a word, punctuation mark etc.). This is essential to do anything else further down in the NLP pipeline for any application (e.g., information extraction, sentiment analysis, machine translation, chatbots etc).
