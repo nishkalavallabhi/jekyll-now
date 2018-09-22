@@ -22,9 +22,9 @@ Here is the same sentence I will use.
 > Mr. Jack O'Neil works at Melitas Marg, located in 245 Yonge Avenue, Austin, 70272. 10.1 There are $10,000 and €1000 which are there
 > just for testing a tokenizer. 17-9-2018 which can be written as 17/9/2018 has to be a single token. Tokens such as 9.5% and phone numbers
 > such as 515-500-6345 or in India as +91-9784057777 or the famous Hyderabadi style house numbers such as 1-2/33/65A should be recognised
-> as single token. Then, there are hashtags such as #crazytokenizer, urls such as http://www.blah.com, and emails such as xyz_temp@abc.edu""" 
+> as single token. Then, there are hashtags such as #crazytokenizer, urls such as http://www.blah.com, and emails such as xyz_temp@abc.edu. 
 
-- okay, obviously, I made this up. By goal is to see: [Mr., O'Neil, 10.1, $10,000, €1000, 17-9-2018, 17/9/2018, 9.5%, 515-500-6345, +91-9784057777, 1-2/33/65A, #crazytokenizer, http://www.blah.com, xyz_temp@abc.edu] as single tokens (14 of them), that are not split up further (rest of the tokens are not weird. They will be properly identified!). Let us see how the tokenizers from NLTK, Spacy and Stanford CoreNLP do with this.
+- okay, obviously, I made this up. My goal is to see: [Mr., O'Neil, 10.1, $10,000, €1000, 17-9-2018, 17/9/2018, 9.5%, 515-500-6345, +91-9784057777, 1-2/33/65A, #crazytokenizer, http://www.blah.com, xyz_temp@abc.edu] as single tokens (14 of them), that are not split up further (rest of the tokens are not weird. They will be properly identified!). Let us see how the tokenizers from NLTK, Spacy and Stanford CoreNLP do with this.
 
 Let me start with Stanford's tokenizer, because it has a online demo:
 - Mr., O'Neil, 10.1, 17-9-2018, 17/9/2018, 515-500-6345, +91-9784057777, #crazytokenizer, http://www.blah.com, xyz_temp@abc.edu - these are identified as single tokens (10/14)  
