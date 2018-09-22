@@ -15,7 +15,7 @@ I am going to look at 3 popular language processing libraries that are used by b
 - NLTK (nltk.org - Python)
 - Spacy (spacy.io - Python)
 - Stanford CoreNLP (corenlp.run - Java)  
-Disclaimer: This is by no means an exhaustive test of tokenization! You can think I am just amused, and I want to further amuse myself! For a more academic discussion, take a look at Manning & Jurafsky's textbook's chapter on regular expressions, where there is a section on text normalization, which discusses these issues (and much more!)
+Disclaimer: This is by no means an exhaustive test of tokenization! You can think I am just amused, and I want to further amuse myself! For a more academic discussion, take a look at Manning & Jurafsky's textbook's chapter on regular expressions, where there is a section on text normalization, which discusses these issues (and much more!). I am only looking at an English example too. 
 
 
 Here is the same sentence I will use.
