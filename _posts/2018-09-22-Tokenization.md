@@ -15,13 +15,15 @@ I am going to look at 3 popular language processing libraries that are used by b
 - NLTK (nltk.org - Python)
 - Spacy (spacy.io - Python)
 - Stanford CoreNLP (corenlp.run - Java)  
-(Disclaimer: This is by no means an exhaustive test of tokenization! You can think I am just amused, and I want to further amuse myself!)
+Disclaimer: This is by no means an exhaustive test of tokenization! You can think I am just amused, and I want to further amuse myself! For a more academic discussion, take a look at Manning & Jurafsky's textbook's chapter on regular expressions, where there is a section on text normalization, which discusses these issues (and much more!)
+
 
 Here is the same sentence I will use.
 > Mr. Jack O'Neil works at Melitas Marg, located in 245 Yonge Avenue, Austin, 70272. 10.1 There are $10,000 and €1000 which are there
 > just for testing a tokenizer. 17-9-2018 which can be written as 17/9/2018 has to be a single token. Tokens such as 9.5% and phone numbers
 > such as 515-500-6345 or in India as +91-9784057777 or the famous Hyderabadi style house numbers such as 1-2/33/65A should be recognised
 > as single token. Then, there are hashtags such as #crazytokenizer, urls such as http://www.blah.com, and emails such as xyz_temp@abc.edu""" 
+
 - okay, obviously, I made this up. By goal is to see: [Mr., O'Neil, 10.1, $10,000, €1000, 17-9-2018, 17/9/2018, 9.5%, 515-500-6345, +91-9784057777, 1-2/33/65A, #crazytokenizer, http://www.blah.com, xyz_temp@abc.edu] as single tokens (14 of them), that are not split up further (rest of the tokens are not weird. They will be properly identified!). Let us see how the tokenizers from NLTK, Spacy and Stanford CoreNLP do with this.
 
 Let me start with Stanford's tokenizer, because it has a online demo:
@@ -34,10 +36,15 @@ Here is a screenshot of the output from corenlp.run (I am also showing part of s
 Let us move to NLTK - NLTK has a bunch of [tokenization options](https://www.nltk.org/api/nltk.tokenize.html). Let me use word_tokenizer and TweetTokenizer from these.
 ```{python}
 from nltk.tokenize import word_tokenize, TweetTokenizer
-content = """Mr. Jack O'Neil works at Melitas Marg, located in 245 Yonge Avenue, Austin, 70272. 10.1 There are $10,000 and €1000 which are there
-           just for testing a tokenizer. 17-9-2018 which can be written as 17/9/2018 has to be a single token. Tokens such as 9.5% and phone numbers
-           scuh as 515-500-6345 or in India as +91-9784057777 or the famous Hyderabadi style house numbers such as 1-2/33/65A should be recognised
-           as single token. Then, there are hashtags such as #crazytokenizer, urls such as http://www.blah.com, and emails such as xyz_temp@abc.edu"""
+content = """Mr. Jack O'Neil works at Melitas Marg, located in 245 Yonge Avenue, 
+	   Austin, 70272. 10.1 There are $10,000 and €1000 which are there
+           just for testing a tokenizer. 17-9-2018 which can be written as 
+           17/9/2018 has to be a single token. Tokens such as 9.5% and 
+           phone numbers such as 515-500-6345 or in India as +91-9784057777 
+           or the famous Hyderabadi style house numbers such as 1-2/33/65A 
+           should be recognised as single token. Then, there are hashtags 
+           such as #crazytokenizer, urls such as http://www.blah.com, and 
+           emails such as xyz_temp@abc.edu"""
 tweeter = TweetTokenizer
 print(word_tokenize(content))
 print(tweeter.tokenize(content))
@@ -88,8 +95,10 @@ def new_tokenizer(somestr):
     result = ""
     for i in range(0,len(somestr)):
         if somestr[i] in split_at:
-                #split at single quote or comma or period only if it is followed by a split_at char or space. 
-                if i < len(somestr)-1 and somestr[i] in specials and somestr[i+1] not in split_at:
+                #split at single quote or comma or period only 
+		#if it is followed by a split_at char or space.
+                if i < len(somestr)-1 and somestr[i] in specials 
+			and somestr[i+1] not in split_at:
                     result += somestr[i]
                 else:
                     result += " " + somestr[i] + " "
