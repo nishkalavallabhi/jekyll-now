@@ -45,7 +45,7 @@ content = """Mr. Jack O'Neil works at Melitas Marg, located in 245 Yonge Avenue,
            should be recognised as single token. Then, there are hashtags 
            such as #crazytokenizer, urls such as http://www.blah.com, and 
            emails such as xyz_temp@abc.edu"""
-tweeter = TweetTokenizer
+tweeter = TweetTokenizer()
 print(word_tokenize(content))
 print(tweeter.tokenize(content))
 ```
