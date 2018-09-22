@@ -126,6 +126,8 @@ Two lessons I learnt:
 - Regular expressions are still very useful for this task, even in the world dominated by deep learning. I found some regular expressions in the tokenizer code for nltk and stanford, but did not find any in Spacy's (I did not look exhaustively, but all of these are on github, so any reader of this post can take a look and message me if I am wrong on this!). 
 - Tokenization is something to think seriously about before starting on any NLP project. After all, everything we do in NLP relies on some kind of tokenization as the first step! So, we need to know whether a given tokenizer meets our needs. 
 
+With that, I guess I can end this long-ish post. To those who survived till here, thanks for reading!
+
 
 Acknowledgements: [@ericlefort](https://github.com/EricLeFort), with whom I discussed some of these issues over the past few days.
  
