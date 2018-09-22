@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tokenization
+title: Some thoughts on Tokenization approaches in NLP
 categories: WorkingWithData
 tags: NLP
 ---
