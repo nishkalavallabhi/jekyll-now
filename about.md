@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am a researcher and assistant professor at Iowa State University. I work on problems at the interface of Language, Computers and Education. The purpose of this blog is to post my reading summaries, teaching experiences (teaching R, text mining, NLP, python etc) and other work related stuff.
+I am a data scientist, and a NLP researcher based in Toronto, Canada. I work on problems related to processing and understanding text, using machine learning methods. I used to teach at Iowa State University, USA in the past. This blog consists of my past reflections on teaching NLP to different audiences, past and current reading summaries, general NLP related articles and other such stuff. My personal blog is at: https://vbsowmya.wordpress.com/ 
 
 ### Contact me
 
