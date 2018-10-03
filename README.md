@@ -1,2 +1,2 @@
 
-Just a trial blog. 
+My blog. 
