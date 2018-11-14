@@ -1,0 +1,66 @@
+Training a non-sequence model
+
+Average F1: 0.928049766933625
+
+Confusion Matrix:
+                O  B-LOC  I-LOC B-MISC I-MISC  B-ORG  I-ORG  B-PER  I-PER 
+         O   1214     38    109     62      1      1      3      5    235 1668
+     B-LOC     44    247     68     12      0      5      5      0    321 702
+     I-LOC    157     43   1024    124      0      2      5      1    305 1661
+    B-MISC     75      2    105   1233      1      2     17      6    176 1617
+    I-MISC      7      1      2      2    133      2     38     19     53 257
+     B-ORG      5      5      1      2      1    103     24      7     68 216
+     I-ORG     20      0     13     15     23     10    487     97    170 835
+     B-PER      2      1      0     15     13      4     58    950    113 1156
+     I-PER     86     47    125     64     11     27     30     42  37891 38323
+
+Detailed Report:
+             precision    recall  f1-score   support
+
+          O       0.99      0.96      0.98     39332
+      B-LOC       0.73      0.75      0.74      1610
+      I-LOC       0.52      0.73      0.60       183
+     B-MISC       0.35      0.64      0.45       384
+     I-MISC       0.48      0.66      0.55       156
+      B-ORG       0.62      0.71      0.66      1447
+      I-ORG       0.58      0.73      0.65       667
+      B-PER       0.76      0.81      0.78      1529
+      I-PER       0.82      0.84      0.83      1127
+
+avg / total       0.94      0.93      0.94     46435
+
+Done with it
+
+Training a Sequence classification model with CRF
+
+Average F1: 0.9253984937579195
+Detailed report:
+             precision    recall  f1-score   support
+
+          O      0.972     0.981     0.977     38323
+      B-LOC      0.696     0.770     0.731      1668
+      I-LOC      0.727     0.486     0.583       257
+     B-MISC      0.675     0.296     0.412       702
+     I-MISC      0.646     0.491     0.558       216
+      B-ORG      0.672     0.552     0.606      1661
+      I-ORG      0.568     0.693     0.625       835
+      B-PER      0.769     0.769     0.769      1617
+      I-PER      0.816     0.889     0.851      1156
+
+avg / total      0.926     0.928     0.925     46435
+
+Average sequence accuracy: 0.5531421951925861
+
+Confusion Matrix:
+                O  B-LOC  I-LOC B-MISC I-MISC  B-ORG  I-ORG  B-PER  I-PER 
+         O  37613    120      3     20     30    188    197     88     64 38323
+     B-LOC    149   1284      1     29      1     92     12     96      4 1668
+     I-LOC     32      6    125      1      4      0     53      0     36 257
+    B-MISC    352     50      1    208      2     56     11     19      3 702
+    I-MISC     61      1      4      4    106      2     28      0     10 216
+     B-ORG    276    236      0     43      3    917     18    162      6 1661
+     I-ORG     82     15     20      2     14     18    579      8     97 835
+     B-PER     92    133      1      1      2     89     43   1244     12 1617
+     I-PER     28      1     17      0      2      2     78      0   1028 1156
+Done with sequence model
+
