@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Reading Notes: FastText embeddings and classification
+title: Reading Notes - FastText embeddings and classification
 categories: Readings
 tags: NLP
 ---
