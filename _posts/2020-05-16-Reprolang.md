@@ -1,6 +1,6 @@
 ---
 layout: post
-title: REPROLANG 2020 - Language Proficiency Scoring Task: A review 
+title: REPROLANG 2020 Language Proficiency Scoring Task -  A review 
 categories: Notes
 tags: [NLP, May2020Notes]
 ---
@@ -42,10 +42,9 @@ Cristina Arhiliuc, Jelena Mitrović and Michael Granitzer
 
 This paper has similar conclusions as the other papers - some of the results were comparable, for some, they got lower scores, and the approach did not work when a new language was introduced. Again, there is a lot of other stuff, I am just focusing on overall conclusions. There were a lot of interesting thoughts towards the end on the general outlook -stuff like what new experiments can be added etc. 
 
-
 Here are my concluding thoughts on this exercise:
 - I wish there was some consolidated set of recommendations for best practices somewhere at the end of the task, but there was nothing of that sort. Nevertheless, there is much to learn from this experiment for the research community in general, and for us (the authors of papers used in this task) in particular too.  
 - Clearly, there are plenty of interesting challenges ahead if one choses to continue from the questions we asked ourselves in our paper.  
-- Reproduction, not replication, should be the goal in future. However, replication is also important first to ensure reproduction is a worthwhile effort. 
+- Reproduction, not replication, should be the goal in future. However, replication is also important first to ensure reproduction is a worthwhile effort.  
 
 I wish these kind of replication and reproduction tasks continue in future, and I hope to submit future work for reproduction too, learning from this experience and getting better. 
