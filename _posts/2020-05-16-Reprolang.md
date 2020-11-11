@@ -2,7 +2,7 @@
 layout: post
 title: REPROLANG 2020 Language Proficiency Scoring Task -  A review 
 categories: Notes
-tags: [NLP, May2020Notes]
+tags: [NLP]
 ---
 
 In 2018, [Taraka Rama](http://phylostar.github.io/) and I published a paper["Experiments with Universal CEFR Classification"](http://aclweb.org/anthology/W18-0515). At that time, we shared the paper's code, along with the result files we obtained during our experiments [on github](https://github.com/nishkalavallabhi/UniversalCEFRScoring/). When we learnt about REPROLANG 2020, aimed at "*Reproduction of Research Results in Science and Technology of Language*", we volunteered our paper, thinking this should be a easy job, as we shared everything and the dataset we used is public too (we shared processed version). When the time came for me to review the submissions of those who reproduced our paper, I learnt about how many possible roadblocks exist in replication and reproduction of NLP and ML work. 
