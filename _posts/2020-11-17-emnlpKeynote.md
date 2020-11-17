@@ -4,7 +4,7 @@ title: Notes on Claire Cardie's EMNLP 2020 keynote
 categories: Research, Notes
 ---
 
-I heard [Claire Cardie](https://en.wikipedia.org/wiki/Claire_Cardie)'s keynote talk at [EMNLP 2020](https://2020.emnlp.org/). This blog post is a collection of my thoughts about it. The talk video with slides can be accessed [here](https://slideslive.com/38938634/information-extraction-through-the-years-how-did-we-get-here). 
+I saw [Claire Cardie](https://en.wikipedia.org/wiki/Claire_Cardie)'s keynote talk at [EMNLP 2020](https://2020.emnlp.org/). This blog post is a collection of my thoughts about it. The talk video with slides can be accessed [here](https://slideslive.com/38938634/information-extraction-through-the-years-how-did-we-get-here). 
 
 **About the talk:**
 The talk is called: "Information Extraction Through the Years: How Did We Get Here?". As the name indicates, it gives a historical overview of one NLP task - Information Extraction. Starting the early research in this direction, with shared tasks and their shortcomings, the article also talks about the state of the art research. There was a lot of discussion on the challenges of IE then and now. This was nicely complemented by opinions from "IE experts" here and there, throughout the talk. 
